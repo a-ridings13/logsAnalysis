@@ -54,8 +54,14 @@ How to execute:
    Make sure to setup the news database on your vagrant machine by running the command:
    
     vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql
+    
+   Next you will need to connect to the news database and create each of the 5 views provided at the beginning of this README:
+   
+    vagrant@vagrant:/vagrant$ psql news
+    
+    news=> [input create view statements here]
        
-   From here you can execute the program using the following command:
+   After you have created the views in the database, you can execute the program using the following command:
    
     vagrant@vagrant:/vagrant$ python3 logAnalysis.py
     
