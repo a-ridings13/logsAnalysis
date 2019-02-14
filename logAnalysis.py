@@ -54,7 +54,6 @@ file.write("Who are the most popular article authors of all time?\n")
 for (name, views) in get_authors():
     file = open("logsAnalysis_results.txt", "a+")
     file.write(" %s -- %s views\n" % (name, views))
-    file.write("\n")
     file.close()
 
 file = open("logsAnalysis_results.txt", "a+")
