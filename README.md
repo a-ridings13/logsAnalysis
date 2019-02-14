@@ -1,4 +1,4 @@
-#Logs Analysis Project
+# Logs Analysis Project
 
 This is a program used to query a PostgreSQL database and then print the results to a plain text file.
 
