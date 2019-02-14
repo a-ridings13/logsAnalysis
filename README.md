@@ -7,7 +7,7 @@ This is a program used to query a PostgreSQL database and then print the results
    - articles_viewcount
    - authors_viewcount
    - total_status
-   - create view error_status as select time::date as day, status, count(status) as error_count from log where status like '404%' group by day, status order by day;
+   - error_status
    - error_date
  
 SQL for create views used:
