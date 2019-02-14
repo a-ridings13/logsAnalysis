@@ -52,6 +52,7 @@ How to execute:
     vagrant@vagrant:$ cd /vagrant
 
    Make sure to setup the news database on your vagrant machine by running the command:
+   
     vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql
        
    From here you can execute the program using the following command:
