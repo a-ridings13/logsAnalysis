@@ -36,7 +36,7 @@ After all 3 functions have ran and queried the database and returned the expecte
 ### How to execute:
    * First you will need to ensure the "news" database is running on your vagrant machine.
       - You will need to download the newsdata.sql file to your /vagrant shared directory. You can download the data here:
-      [newsdata.sql] (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+      [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
    * Place the logAnalysis.py file into your shared /vagrant directory
    
